@@ -8,7 +8,7 @@ class Popular extends Component {
     }
 
     componentDidMount() {
-        const url = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=e441f8a3a151d588a4932d2c5d310769"
+        const url = "http://localhost:8088/moviename"
 
         fetch(url)
             .then(response => response.json())
